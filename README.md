@@ -14,7 +14,7 @@ The JavaScript `this` keyword refers to the object it belongs to.
  
 ## `this` Alone
 
-When used alone, this refers to the global object.
+When used alone, `this` refers to the global object.
 
 In a browser window the global object is the `window` object:
 
