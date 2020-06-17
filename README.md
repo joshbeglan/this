@@ -12,7 +12,7 @@ The JavaScript `this` keyword refers to the object it belongs to.
 * In a function, in strict mode, `this` is undefined.
 * In an event, `this` refers to the element that received the event.
  
-#### `this` Alone
+## `this` Alone
 
 When used alone, this refers to the global object.
 
@@ -25,7 +25,7 @@ console.log(x); //prints the global window object
 ```
  
 
-#### `this` in a Method
+## `this` in a Method
 
 Before now, we have been using the term method and function interchangeably, but there is a slight difference. A method is a function that you invoke **off of an object**. For example, `fullName()` is an example of calling a function, but `person.fullName()` is an example of calling a method. Because we type "person DOT fullname", we are invoking the fullName method off of the person object. Another explanation is that the person object **owns** the fullName method. 
 
@@ -49,7 +49,7 @@ The person object is the owner of the fullName method. In other words: **this.fi
 
 
 
-### `this` in a Function (Default)
+## `this` in a Function (Default)
 
 In a JavaScript function, this refers to the global object `window`.
 
@@ -61,7 +61,7 @@ function myFunction() {
 myFunction(); //returns the global window object
 ```
  
-### `this` in a Function (Strict)
+## `this` in a Function (Strict)
 
 JavaScript strict mode does not allow default binding.
 So, when used in a function, in strict mode, `this` is undefined.
@@ -76,7 +76,7 @@ myFunction(); //returns undefined
 ```
  
 
-### `this` in Event Handlers
+## `this` in Event Handlers
 
 In HTML event handlers, `this` refers to the HTML element that received the event:
 
@@ -89,7 +89,7 @@ function handleClick(e){
 //clicking anywhere in the DOM will console log the body element
 ```
 
-### Explicit Function Binding
+## Explicit Function Binding
 
 `bind()` is a predefined JavaScript method.
 
