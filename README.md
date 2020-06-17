@@ -1,6 +1,6 @@
 # The JavaScript this Keyword
 
-### What is this?
+## What is this?
 
 The JavaScript `this` keyword refers to the object it belongs to. 
 
