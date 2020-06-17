@@ -51,7 +51,7 @@ The person object is the owner of the fullName method. In other words: **this.fi
 
 ## `this` in a Function (Default)
 
-In a JavaScript function, this refers to the global object `window`.
+In a JavaScript function, `this` refers to the global object `window`.
 
 **Example (copy and paste this code into your console)**
 ```js
