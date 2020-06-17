@@ -98,7 +98,7 @@ This `bind()` method is called off a function object and **returns a new functio
 In the example below, when calling `printFullName.bind` with person as the argument, it will return a new function where the value of `this` is the person object. 
 
 **Example (copy and paste this code into your console)**
-``js
+```js
 var person = {
   firstName: "John",
 lastName: "Doe" 
@@ -113,6 +113,6 @@ printFullName() //console logs "undefined undefined"
 var func = printFullName.bind(person);  // Will return a new function which we save as func
 
 func() //console logs "John Doe"
-``
+```
  
 When we invoke `printFullName()`, the value of `this` in a function is the `window` object, and since `window` does not have a firstName or lastName property, we get `"undefined undefined"`.  `printFullName.bind(person)` returns a new function object which we store in a variable called `func`. When we invoke `func()`, the value of `this` is no longer the `window` object, but instead, the value of `this` has been **binded** to the person object.          
