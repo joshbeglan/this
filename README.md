@@ -4,7 +4,7 @@
 
 The JavaScript `this` keyword refers to the object it belongs to. 
 
-**This has different values depending on where it is used:**
+**`this` has different values depending on where it is used:**
 
 * Alone, `this` refers to the global object.
 * In a method, `this` refers to the owner object.
